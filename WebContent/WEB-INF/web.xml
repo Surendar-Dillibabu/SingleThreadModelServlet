@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>SingleThreadModelEx</display-name>
+  
+  <context-param>
+    <param-name>contextParam1</param-name>
+    <param-value>contextParamValue1</param-value>
+  </context-param>
+  
+  <context-param>
+    <param-name>contextParam2</param-name>
+    <param-value>contextParamValue2</param-value>
+  </context-param>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>    
+  </welcome-file-list>
+  
+  <error-page> 
+    <error-code>404</error-code>   
+    <location>/error-page.jsp</location>
+  </error-page>
+  
+</web-app>
